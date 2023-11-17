@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #ffffff;
+  background-image: linear-gradient(160deg, #ffffff 20%, #e90036 100%);
+}
+body {
+  background-color: #ffffff;
+  background-image: linear-gradient(160deg, #ffffff 50%, #e90036 100%);
+}
+footer {
+  background-color: #ffffff;
+  background-image: linear-gradient(160deg, #ffffff 0%, #e90036 100%);
+}
