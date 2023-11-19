@@ -1,5 +1,4 @@
-import React from "react";
-import { Navbar } from "./../navbar/NavBar";
+import { Navbar } from "./../navbar/Navbar";
 import Carrousel from "./../carrousel/Carrousel";
 import Card from "./../card/Card";
 import { Footer } from "/src/components/footer/Footer.jsx";

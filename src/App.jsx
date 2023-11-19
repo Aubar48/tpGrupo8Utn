@@ -3,7 +3,8 @@ import Home from "./components/home/Home";
 import Login from "./components/login/Login";
 import Register from "./components/register/Register";
 import Contacto from "./components/contacto/Contacto";
-import { About } from './components/about/About';
+import { About } from "./components/about/About";
+import NotFound from "./components/404/NotFound";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="register" element={<Register />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/about" element={<About />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>

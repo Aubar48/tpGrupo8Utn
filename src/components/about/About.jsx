@@ -14,7 +14,7 @@ export const About = () => {
           Sobre Nosotros
         </h1>
         <p>
-          
+
                "fusionamos el fitness con el bienestar. <br /> 
                Descubre una vida más fuerte y saludable en cada entrenamiento."
         </p>
