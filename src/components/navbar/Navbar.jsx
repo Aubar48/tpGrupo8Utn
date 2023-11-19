@@ -44,13 +44,13 @@ export const Navbar = () => {
         </div>
         <div className="w-full block flex-grow ml-4 lg:flex lg:items-center lg:w-auto">
           <div className="text-sm lg:flex-grow">
-            <Link to="/login" className="block mt-4 lg:inline-block lg:mt-0 text-red-950 dark:text-red-950 hover:text-zinc-950 mr-4">
+            <Link to="/login" className="block mt-4 font-bold lg:inline-block lg:mt-0 text-red-950 dark:text-red-950 hover:text-zinc-950 mr-4">
               Login
             </Link>
-            <Link to="/register" className="block mt-4 lg:inline-block lg:mt-0 text-red-950 dark:text-red-950 hover:text-zinc-950 mr-4">
+            <Link to="/register" className="block mt-4 font-bold lg:inline-block lg:mt-0 text-red-950 dark:text-red-950 hover:text-zinc-950 mr-4">
               Register
             </Link>
-            <Link to="/contacto" className="block mt-4 lg:inline-block lg:mt-0 text-red-950 dark:text-red-950 hover:text-zinc-950">
+            <Link to="/contacto" className="block mt-4 font-bold lg:inline-block lg:mt-0 text-red-950 dark:text-red-950 hover:text-zinc-950">
               Contact
             </Link>
           </div>
