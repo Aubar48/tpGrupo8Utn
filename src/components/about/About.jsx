@@ -7,7 +7,7 @@ export const About = () => {
     <>
       <Navbar />
 
-      <h1>Manu code here</h1>
+      <h1 className="title">Manu code here</h1>
 
       <Footer />
     </>
