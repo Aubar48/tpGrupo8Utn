@@ -38,9 +38,7 @@ export const About = () => {
       <div className="about-image">
         <img
           src="/img/about/gym-about.jpg"
-          alt="Gym Entrena Salud"
-          
-        />
+          alt="Gym Entrena Salud"/>
       </div>
 
       <div className="about-text">
@@ -52,7 +50,65 @@ export const About = () => {
           aprender, crecer y alcanzar su máximo potencial.
         </p>
       </div>
+
+      <div className="about-text-1">
+        <h2>Nuestro equipo</h2>
+        <p>
+        "Juntos somos más fuertes. Conoce a nuestro equipo, tu apoyo personal
+         en cada paso hacia tus metas de salud y bienestar."
+        </p>
+        <hr />
+      </div>
+
+      <div className="cards">
+         <div class="card">
+           <div class="profileImage">
+   
+
+           </div>
+             <div class="textContainer">
+               <p class="name">Tincho Adab</p>
+               <p class="profile">Jefe Personal trainer</p>
+             </div>
+         </div>
+
+         <div class="card">
+           <div class="profileImage">
+           <img src="/img/about/lonja.jpg" alt="" />
+
+           </div>
+             <div class="textContainer">
+               <p class="name">Micaela Lonja</p>
+               <p class="profile">Jefe Personal Trainer</p>
+             </div>
+         </div>
+
+         <div class="card">
+           <div class="profileImage">
+              <img src="/img/about/anteojo.jpg" alt="" />
+
+           </div>
+             <div class="textContainer">
+               <p class="name">Manteo Jito</p>
+               <p class="profile">SEO y fundador</p>
+             </div>
+         </div>
+
+         <div class="card">
+           <div class="profileImage">
+   
+
+           </div>
+             <div class="textContainer">
+               <p class="name">Nocoma Tanto</p>
+               <p class="profile">Nutricionista/Salud</p>
+             </div>
+         </div>
+      </div>
+      
     </div>
+
+
 
 
     </body>
