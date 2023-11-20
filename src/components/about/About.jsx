@@ -61,47 +61,47 @@ export const About = () => {
       </div>
 
       <div className="cards">
-         <div class="card">
-           <div class="profileImage">
+         <div className="card">
+           <div className="profileImage">
    
 
            </div>
-             <div class="textContainer">
-               <p class="name">Tincho Adab</p>
-               <p class="profile">Jefe Personal trainer</p>
+             <div className="textContainer">
+               <p className="name">Tincho Adab</p>
+               <p className="profile">Jefe Personal trainer</p>
              </div>
          </div>
 
-         <div class="card">
-           <div class="profileImage">
+         <div className="card">
+           <div className="profileImage">
            <img src="/img/about/lonja.jpg" alt="" />
 
            </div>
-             <div class="textContainer">
-               <p class="name">Micaela Lonja</p>
-               <p class="profile">Jefe Personal Trainer</p>
+             <div className="textContainer">
+               <p className="name">Micaela Lonja</p>
+               <p className="profile">Jefe Personal Trainer</p>
              </div>
          </div>
 
-         <div class="card">
-           <div class="profileImage">
+         <div className="card">
+           <div className="profileImage">
               <img src="/img/about/anteojo.jpg" alt="" />
 
            </div>
-             <div class="textContainer">
-               <p class="name">Manteo Jito</p>
-               <p class="profile">SEO y fundador</p>
+             <div className="textContainer">
+               <p className="name">Manteo Jito</p>
+               <p className="profile">SEO y fundador</p>
              </div>
          </div>
 
-         <div class="card">
-           <div class="profileImage">
+         <div className="card">
+           <div className="profileImage">
    
 
            </div>
-             <div class="textContainer">
-               <p class="name">Nocoma Tanto</p>
-               <p class="profile">Nutricionista/Salud</p>
+             <div className="textContainer">
+               <p className="name">Nocoma Tanto</p>
+               <p className="profile">Nutricionista/Salud</p>
              </div>
          </div>
       </div>
