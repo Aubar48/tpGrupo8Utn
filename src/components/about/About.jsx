@@ -1,7 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Navbar } from "./../navbar/Navbar";
 import { Footer } from './../footer/Footer';
-
-import '../../../public/css/about/about.css'
 
 export const About = () => {
   return (
