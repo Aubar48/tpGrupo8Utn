@@ -27,13 +27,7 @@ export const Footer = () => {
               </Link>
             </li>
             <li>
-<<<<<<< Updated upstream
-              <Link to="#" className="hover:underline me-4 md:me-6">
-                Privacy Policy
-              </Link>
-=======
               <Link to="/PoliciesPrivacy" className="hover:underline me-4 md:me-6">Privacy Policy</Link>
->>>>>>> Stashed changes
             </li>
             <li>
               <Link to="#" className="hover:underline me-4 md:me-6">
