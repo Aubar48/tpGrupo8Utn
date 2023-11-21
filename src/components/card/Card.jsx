@@ -32,7 +32,13 @@ const Card = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-center">
+    <div
+      className="flex flex-wrap justify-center"
+      data-aos="fade-down"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="50"
+      data-aos-duration="1000"
+    >
       {cardData.map((data, index) => (
         <div
           key={index}

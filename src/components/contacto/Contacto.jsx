@@ -7,7 +7,13 @@ export default function Contact() {
     <>
       <Navbar />
       <Carrousel />
-      <div className="font-mono ">
+      <div
+        className="font-mono "
+        data-aos="fade-down"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="50"
+        data-aos-duration="1000"
+      >
         <div className="container mx-auto ">
           <div className="flex justify-center px-6">
             <div className="w-full xl:w-3/4 lg:w-11/12 flex ">

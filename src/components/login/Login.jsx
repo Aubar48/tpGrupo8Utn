@@ -8,9 +8,11 @@ function Login() {
     <>
       <Navbar />
       <Carrousel />
-      <body>
+      <body data-aos="fade-down"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="50"
+      data-aos-duration="1000">
         
-      
       <div className="font-mono ">
         <div className="container mx-auto ">
           <div className="flex justify-center px-6">
