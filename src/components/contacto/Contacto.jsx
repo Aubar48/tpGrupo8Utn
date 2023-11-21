@@ -18,7 +18,7 @@ export default function Contact() {
           <div className="flex justify-center px-6">
             <div className="w-full xl:w-3/4 lg:w-11/12 flex ">
               <div
-                className="object-cover w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg bg-[url('/img/card/gym3.jpg')]"
+                className="object-cover w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg bg-[url('/img/card/gym1.jpg')]"
                 style={{ backgroundColor: "red" }}
               ></div>
 
