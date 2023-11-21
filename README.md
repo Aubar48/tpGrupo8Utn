@@ -4,9 +4,9 @@
 ## Integrantes:
 
 ### Nahuel Argandoña; 🇦🇷 - 🐣 [Mi Github](https://github.com/Aubar48)
-### Dario Emanuel Contreras; 🇦🇷 - 🐣 [Mi Github](https://github.com/Aubar48)
-### Nahuel Núñez; 🇦🇷  - 🐣 [Mi Github](https://github.com/Aubar48)
-### Leandro Ulloque; 🇦🇷 - 🐣 [Mi Github](https://github.com/Aubar48)
+### Dario Emanuel Contreras; 🇦🇷 - 🐣 [Mi Github](https://github.com/blankfiledesign)
+### Nahuel Núñez; 🇦🇷  - 🐣 [Mi Github](https://github.com/86developer)
+### Leandro Ulloque; 🇦🇷 - 🐣 [Mi Github](https://github.com/LeandroUlloque)
 
 
 <figure><img src="./mock/gym1.png" alt="logo" style="height: 400px;"></figure>
