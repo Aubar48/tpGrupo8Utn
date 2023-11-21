@@ -1,7 +1,7 @@
 import { Navbar } from "./../navbar/Navbar";
 import Carrousel from "./../carrousel/Carrousel";
 import { Footer } from "/src/components/footer/Footer.jsx";
-import "./PoliciesPrivacy.css";
+
 
 
 function PoliciesPrivacy() {
