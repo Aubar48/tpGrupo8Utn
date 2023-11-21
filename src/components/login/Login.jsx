@@ -16,7 +16,7 @@ function Login() {
       <div className="font-mono ">
         <div className="container mx-auto ">
           <div className="flex justify-center px-6">
-            <div className=" xl:w-3/4 lg:w-11/12 flex ">
+            <div className="m-5 shadow-2xl xl:w-3/4 lg:w-11/12 flex ">
               <div
                 className="object-cover w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg bg-[url('/img/card/gym3.jpg')]"
                 style={{ backgroundColor: "red" }}

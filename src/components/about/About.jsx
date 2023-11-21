@@ -66,9 +66,11 @@ export const About = () => {
             data-aos-duration="1000"
           >
             <div className="card">
-              <div className="profileImage"></div>
+              <div className="profileImage">
+                <img src="/img/about/perso.jpg" alt="" />
+              </div>
               <div className="textContainer">
-                <p className="name">Tincho Adab</p>
+                <p className="name">Gustafa Chero</p>
                 <p className="profile">Jefe Personal trainer</p>
               </div>
             </div>
@@ -94,12 +96,22 @@ export const About = () => {
             </div>
 
             <div className="card">
-              <div className="profileImage"></div>
+              <div className="profileImage">
+                <img src="/img/about/nocoma.jpg" alt="" srcset="" />
+              </div>
               <div className="textContainer">
                 <p className="name">Nocoma Tanto</p>
                 <p className="profile">Nutricionista/Salud</p>
               </div>
             </div>
+          </div>
+
+          <div className="about-text-1">
+            <h2>Sumate</h2>
+            <p>
+              Estamos entusiasmados en recibirte en nuestro equipo, desde nuestro SEO hasta el mas nuevo de nuestros fitn formamos parte de esta 
+              gran familia de Gym Entrena Salud. Te estamos esperando¡ 
+            </p>
           </div>
         </div>
       </body>
