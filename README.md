@@ -1,8 +1,13 @@
-# React + Vite + tailWind Css 
-
 # Tp - Final Gym Entrena Salud -> Frontend, Argentina Programa - Utn - Grupo 8 - <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"><img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><img align="center" alt="JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
 
 ### web render in Git Hub page[https://aubar48.github.io/tpGrupo8Utn/]
+## Integrantes:
+
+### Nahuel Argandoña; 🇦🇷 - 🐣 [Mi Github](https://github.com/Aubar48)
+### Dario Emanuel Contreras; 🇦🇷 - 🐣 [Mi Github](https://github.com/Aubar48)
+### Nahuel Núñez; 🇦🇷  - 🐣 [Mi Github](https://github.com/Aubar48)
+### Leandro Ulloque; 🇦🇷 - 🐣 [Mi Github](https://github.com/Aubar48)
+
 
 <figure><img src="./mock/gym1.png" alt="logo" style="height: 400px;"></figure>
 <figure><img src="./mock/gym2.png" alt="logo" style="height: 400px;"></figure>
