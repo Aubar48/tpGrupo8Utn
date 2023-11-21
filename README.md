@@ -4,12 +4,12 @@
 
 ### web render in Git Hub page[https://aubar48.github.io/tpGrupo8Utn/]
 
-<figure><img src="./mocks/gym1.png" alt="logo" style="height: 400px;"></figure>
-<figure><img src="./mocks/gym2.png" alt="logo" style="height: 400px;"></figure>
-<figure><img src="./mocks/gym3.png" alt="logo" style="height: 400px;"></figure>
-<figure><img src="./mocks/gym4.png" alt="logo" style="height: 400px;"></figure>
-<figure><img src="./mocks/gym5.png" alt="logo" style="height: 400px;"></figure>
-<figure><img src="./mocks/gym6.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="./mock/gym1.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="./mock/gym2.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="./mock/gym3.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="./mock/gym4.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="./mock/gym5.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="./mock/gym6.png" alt="logo" style="height: 400px;"></figure>
 
 ## Instructions
 
