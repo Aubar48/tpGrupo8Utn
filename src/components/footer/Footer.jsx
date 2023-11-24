@@ -8,8 +8,8 @@ export const Footer = () => {
 
   return (
     <>
-      <footer className="shadow bg-white mt-1">
-        <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+      <footer className="shadow bg-white p-5">
+        <div className="w-full mx-auto max-w-screen-xl md:flex md:items-center md:justify-between">
           <span className="text-sm text-red-950 dark:text-red-950 sm:text-center ">
             ©{day} {month} {year}{" "}
             <Link

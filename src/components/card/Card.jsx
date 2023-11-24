@@ -39,14 +39,15 @@ const Card = () => {
       {cardData.map((data, index) => (
         <div
           key={index}
-          className="mt-1 mb-2 ml-2 max-w-sm rounded overflow-hidden shadow-lg md:w-1/2 shadow-red-600"
+          className="m-5 ml-2 max-w-sm  rounded-lg overflow-hidden shadow-lg md:w-1/2 shadow-red-600"
           data-aos="fade-down"
           data-aos-anchor="#example-anchor"
           data-aos-offset="50"
           data-aos-duration="1000"
+          
         >
           <img
-            className="w-full object-cover"
+            className="w-full object-cover hover:scale-105 transform-gpu duration-700"
             src={`/img/card/gym${data.imageIndex}.jpg`}
             alt="Gym"
           />

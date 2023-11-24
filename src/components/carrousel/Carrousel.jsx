@@ -30,10 +30,10 @@ const Carousel = () => {
   return (
     <div
       id="controls-carousel"
-      className="relative w-full"
+      className="relative w-full p-2"
       data-carousel="static"
     >
-      <div className="relative h-56 md:h-96 overflow-hidden">
+      <div className="relative h-56 md:h-96 overflow-hidden rounded-lg">
         {[0, 1, 2, 3, 4, 5].map((index) => (
           <div
             key={index}

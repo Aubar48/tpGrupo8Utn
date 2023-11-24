@@ -30,13 +30,13 @@ export const About = () => {
           </div>
 
           <div
-            className="about-image"
+            className="about-image "
             data-aos="fade-down"
             data-aos-anchor="#example-anchor"
             data-aos-offset="50"
             data-aos-duration="1000"
           >
-            <img src="/img/about/gym-about.jpg" alt="Gym Entrena Salud" />
+            <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/gym-about.jpg" alt="Gym Entrena Salud" />
           </div>
 
           <div className="about-text">
@@ -67,7 +67,7 @@ export const About = () => {
           >
             <div className="card">
               <div className="profileImage">
-                <img src="/img/about/perso.jpg" alt="" />
+                <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/perso.jpg" alt="" />
               </div>
               <div className="textContainer">
                 <p className="name">Gustafa Chero</p>
@@ -77,7 +77,7 @@ export const About = () => {
 
             <div className="card">
               <div className="profileImage">
-                <img src="/img/about/lonja.jpg" alt="" />
+                <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/lonja.jpg" alt="" />
               </div>
               <div className="textContainer">
                 <p className="name">Micaela Lonja</p>
@@ -87,7 +87,7 @@ export const About = () => {
 
             <div className="card">
               <div className="profileImage">
-                <img src="/img/about/anteojo.jpg" alt="" />
+                <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/anteojo.jpg" alt="" />
               </div>
               <div className="textContainer">
                 <p className="name">Manteo Jito</p>
@@ -97,7 +97,7 @@ export const About = () => {
 
             <div className="card">
               <div className="profileImage">
-                <img src="/img/about/nocoma.jpg" alt="" srcset="" />
+                <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/nocoma.jpg" alt="" />
               </div>
               <div className="textContainer">
                 <p className="name">Nocoma Tanto</p>
