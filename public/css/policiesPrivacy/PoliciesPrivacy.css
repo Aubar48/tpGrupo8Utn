@@ -3,6 +3,9 @@
     margin: auto;
     text-align: center;
     padding: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 }
 
 .policies-privacy-header {

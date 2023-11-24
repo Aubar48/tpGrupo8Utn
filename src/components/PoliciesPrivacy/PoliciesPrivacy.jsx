@@ -4,6 +4,7 @@ import { Footer } from "/src/components/footer/Footer.jsx";
 
 
 
+
 function PoliciesPrivacy() {
   return (
     <>
