@@ -39,7 +39,7 @@ const Card = () => {
       {cardData.map((data, index) => (
         <div
           key={index}
-          className="m-5 ml-2 max-w-sm  rounded-lg overflow-hidden shadow-lg md:w-1/2 shadow-red-600"
+          className="my-5 ml-2 max-lg:ml-0 max-w-sm rounded-lg overflow-hidden shadow-lg md:w-1/2 shadow-red-600"
           data-aos="fade-down"
           data-aos-anchor="#example-anchor"
           data-aos-offset="50"

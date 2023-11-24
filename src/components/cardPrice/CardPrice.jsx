@@ -1,7 +1,7 @@
 export const CardPrice = () => {
   return (
     <div
-      className="m-5 flex flex-wrap items-center justify-center"
+      className="my-5 flex flex-wrap items-center justify-center"
       data-aos="fade-down"
       data-aos-anchor="#example-anchor"
       data-aos-offset="50"
@@ -18,7 +18,7 @@ export const CardPrice = () => {
           <div className="text-center mt-3">
             <p className="text-sm text-gray-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s,
             </p>
           </div>
@@ -36,7 +36,7 @@ export const CardPrice = () => {
           <div className="text-center mt-3">
             <p className="text-sm text-white text-opacity-80">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s,
             </p>
           </div>
@@ -54,7 +54,7 @@ export const CardPrice = () => {
           <div className="text-center mt-3">
             <p className="text-sm text-gray-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
+              industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s,
             </p>
           </div>
