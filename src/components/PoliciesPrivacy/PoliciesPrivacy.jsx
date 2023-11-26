@@ -10,7 +10,7 @@ function PoliciesPrivacy() {
       <Carrousel />
       <div className="flex flex-col md:flex-row lg:max-w-screen-xl lg:mx-auto">
         <div className="md:w-1/3 lg:w-1/4 md:mr-4 md:ml-4">
-          {/* Componente AlCostado */}
+                   
           <AlCostado />
         </div>
         <div className="md:w-2/3 lg:w-1/2 md:pl-4 md:pr-4">
