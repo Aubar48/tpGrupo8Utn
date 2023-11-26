@@ -1,12 +1,19 @@
-
 .al-costado-container {
-    
-  }
-  
-  .sticky-quote {
-    position: sticky;
-    top: 20px; /* Ajusta la distancia desde la parte superior según tus preferencias */
-    padding: 10px;
-    background-color: #fff; /* Puedes ajustar el color de fondo según tu diseño */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
+
+  width: 100%;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
+.sticky-quote {
+  position: sticky;
+  top: 20px;
+  /* Ajusta la distancia desde la parte superior según tus preferencias */
+  padding: 10px;
+  background-color: #fff;
+  /* Puedes ajustar el color de fondo según tu diseño */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
