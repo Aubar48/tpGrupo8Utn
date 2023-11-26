@@ -6,12 +6,12 @@ const Carousel = () => {
   useEffect(() => {
     // Función para avanzar automáticamente
     const autoAdvance = () => {
-      const nextIndex = (currentIndex % 5) + 1;
+      const nextIndex = (currentIndex % 4) + 1;
       setCurrentIndex(nextIndex);
     };
 
     // Configuración del temporizador para avanzar automáticamente cada cierto tiempo (por ejemplo, cada 5 segundos)
-    const intervalId = setInterval(autoAdvance, 5000);
+    const intervalId = setInterval(autoAdvance, 4000);
 
     // Limpieza del temporizador al desmontar el componente
     return () => clearInterval(intervalId);
