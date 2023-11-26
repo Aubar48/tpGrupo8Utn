@@ -18,12 +18,12 @@ const Carousel = () => {
   }, [currentIndex]);
 
   const goToPrevSlide = () => {
-    const prevIndex = currentIndex === 1 ? 5 : currentIndex - 1;
+    const prevIndex = currentIndex === 1 ? 4 : currentIndex - 1;
     setCurrentIndex(prevIndex);
   };
 
   const goToNextSlide = () => {
-    const nextIndex = currentIndex === 5 ? 1 : currentIndex + 1;
+    const nextIndex = currentIndex === 4 ? 1 : currentIndex + 1;
     setCurrentIndex(nextIndex);
   };
 
@@ -34,7 +34,7 @@ const Carousel = () => {
       data-carousel="static"
     >
       <div className="relative h-56 md:h-96 overflow-hidden rounded-lg">
-        {[0, 1, 2, 3, 4, 5].map((index) => (
+        {[0, 1, 2, 3, 4].map((index) => (
           <div
             key={index}
             className={`duration-700 ease-in-out ${
