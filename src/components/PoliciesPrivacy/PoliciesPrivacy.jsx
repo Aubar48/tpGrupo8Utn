@@ -1,7 +1,7 @@
 import { Navbar } from "./../navbar/Navbar";
 import Carrousel from "./../carrousel/Carrousel";
 import { Footer } from "/src/components/footer/Footer.jsx";
-import AlCostado from '../Aside/AlCostado';
+import AlCostado from '../aside/AlCostado.jsx';
 
 function PoliciesPrivacy() {
   return (
