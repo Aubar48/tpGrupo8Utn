@@ -8,12 +8,12 @@ function PoliciesPrivacy() {
     <>
       <Navbar />
       <Carrousel />
-      <div className="grid grid-cols-3 gap-0">
-        <div className="col-span-1">
+      <div className="flex flex-col md:flex-row lg:max-w-screen-xl lg:mx-auto">
+        <div className="md:w-1/3 lg:w-1/4 md:mr-4 md:ml-4">
           {/* Componente AlCostado */}
           <AlCostado />
         </div>
-        <div className="col-span-1">
+        <div className="md:w-2/3 lg:w-1/2 md:pl-4 md:pr-4">
           <div className="policies-privacy-container">
             <h1 className="policies-privacy-header">Políticas y Privacidad</h1>
             <div className="policies-privacy-content">
@@ -53,6 +53,9 @@ function PoliciesPrivacy() {
           </div>
         </div>
 
+        <div className="md:w-1/3 lg:w-1/4 md:ml-4 md:mr-4">
+          {/* Contenido para la tercera columna (puedes agregar lo que desees aquí) */}
+        </div>
       </div>
 
       <Footer />
