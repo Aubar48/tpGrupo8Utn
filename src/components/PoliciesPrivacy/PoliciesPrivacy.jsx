@@ -54,7 +54,7 @@ function PoliciesPrivacy() {
         </div>
 
         <div className="md:w-1/3 lg:w-1/4 md:ml-4 md:mr-4">
-          {/* Contenido para la tercera columna (puedes agregar lo que desees aquí) */}
+          {/* Contenido para la tercera columna */}
         </div>
       </div>
 
