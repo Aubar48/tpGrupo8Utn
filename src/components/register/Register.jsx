@@ -3,7 +3,7 @@ import Carrousel from "./../carrousel/Carrousel";
 import { Footer } from "./../footer/Footer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Swal from 'sweetalert2';
+import Swal from "sweetalert2";
 const validacionDatos = (nombre, email, password, password2) => {
   if (nombre === "") return "Por favor, ingrese su nombre";
   if (email === "") return "Por favor, ingrese su email";
@@ -36,11 +36,11 @@ function Register() {
         didOpen: (toast) => {
           toast.onmouseenter = Swal.stopTimer;
           toast.onmouseleave = Swal.resumeTimer;
-        }
+        },
       });
       Toast.fire({
         icon: "success",
-        title: "Usuario Registrado"
+        title: "Usuario Registrado",
       });
       setNombre("");
       setEmail("");
@@ -71,11 +71,15 @@ function Register() {
           <div className="container mx-auto ">
             <div className="flex justify-center px-6">
               <div className="m-5  w-full xl:w-3/4 lg:w-11/12 flex rounded-lg shadow-lg shadow-green-700 dark:shadow-purple-700 ">
-                <div
-                  className="object-cover w-full h-auto hidden lg:block lg:w-1/2 bg-cover rounded-l-lg bg-[url('/img/card/gym2.jpg')]"
-                  style={{ backgroundColor: "red" }}
-                ></div>
-
+                <iframe
+                  width="1250"
+                  height="703"
+                  src="https://www.youtube.com/embed/MzXI4GDrvww"
+                  title="CORE CARDIO | FIT CAMP - SIN EXCUSAS"
+                  className="object-cover w-full h-auto hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
                 <div className="w-full  lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
                   <h3 className="pt-4 text-2xl text-center">
                     Welcome Our Gym!
