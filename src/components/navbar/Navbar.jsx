@@ -113,7 +113,7 @@ export const Navbar = () => {
             <div className="absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6"></div>
           </label>
           <div>
-            <span className="inline-block text-sm px-4 py-2 leading-none border rounded dark:text-white dark:border-white text-black border-black shadow-lg shadow-green-700 dark:shadow-purple-700 hover:text-red-950  mt-4 lg:mt-0">
+            <span className="inline-block text-sm px-4 py-2 leading-none border rounded text-red-950 border-red-950 shadow-lg shadow-green-700 dark:shadow-purple-700 hover:text-red-950  mt-4 lg:mt-0">
               {currentTime}
             </span>
           </div>
