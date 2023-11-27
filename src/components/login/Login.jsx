@@ -4,6 +4,7 @@ import { Footer } from "./../footer/Footer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Swal from "sweetalert2";
+import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
 const validacionDatos = (email, password) => {
   if (email === "") return "Por favor, ingrese su email";
   if (password === "") return "Por favor, ingrese su password";
@@ -167,6 +168,7 @@ function Login() {
           </div>
         </div>
       </div>
+      <ReproductorAudio/>
       <Footer />
     </>
   );

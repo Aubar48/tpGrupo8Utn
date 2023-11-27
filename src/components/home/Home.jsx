@@ -3,6 +3,7 @@ import Carrousel from "./../carrousel/Carrousel";
 import Card from "./../card/Card";
 import { Footer } from "/src/components/footer/Footer.jsx";
 import { CardPrice } from "../cardPrice/CardPrice";
+import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <Carrousel />
         <Card />
         <CardPrice />
+        <ReproductorAudio/>
         <Footer />
       </div>
     </>

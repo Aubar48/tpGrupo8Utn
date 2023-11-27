@@ -2,6 +2,7 @@ import { Navbar } from "./../navbar/Navbar";
 import Carrousel from "./../carrousel/Carrousel";
 import { Footer } from "/src/components/footer/Footer.jsx";
 import AlCostado from "../aside/AlCostado.jsx";
+import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
 
 function PoliciesPrivacy() {
   return (
@@ -101,6 +102,7 @@ function PoliciesPrivacy() {
           </div>
         </div>
       </div>
+      <ReproductorAudio/>
       <Footer />
     </>
   );

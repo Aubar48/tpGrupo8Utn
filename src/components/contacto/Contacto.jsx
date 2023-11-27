@@ -3,6 +3,7 @@ import Carrousel from "./../carrousel/Carrousel";
 import { Footer } from "../footer/Footer";
 import { useState } from "react";
 import Swal from 'sweetalert2';
+import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
 const validacionDatos = (nombre, email, mensaje) => {
   if (nombre === "") return "Por favor, ingrese su nombre";
   if (email === "") return "Por favor, ingrese su email";
@@ -152,6 +153,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <ReproductorAudio/>
       <Footer />
     </>
   );
