@@ -1,7 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Navbar } from "./../navbar/Navbar";
-import { Footer } from "./../footer/Footer";
-import ReproductorAudio from "../reproductoAudio/ReproductorAudio";
+import { Navbar } from "../../components/navbar/Navbar";
+import { Footer } from "../../components/footer/Footer";
+import ReproductorAudio from "../../components/reproductoAudio/ReproductorAudio";
+
 
 export const About = () => {
   return (
@@ -51,11 +52,13 @@ export const About = () => {
             <h2>Nuestra Misión</h2>
             <p>
               En Gym Entrena Salud, creemos en la importancia de la salud
-              integral. Nuestra misión es proporciimport ReproductorAudio from './../reproductoAudio/ReproductorAudio';
-onar a nuestros miembros noimport ReproductorAudio from './../reproductoAudio/ReproductorAudio';
-
-              solo un lugar para hacer ejercicio, sino también una comunidad
-              donde puedan aprender, crecer y alcanzar su máximo potencial.
+              integral. Nuestra misión es proporciimport ReproductorAudio from
+              './../reproductoAudio/ReproductorAudio'; onar a nuestros miembros
+              noimport ReproductorAudio from
+              './../reproductoAudio/ReproductorAudio'; import ReproductorAudio
+              from './../../components/reproductoAudio/ReproductorAudio'; solo
+              un lugar para hacer ejercicio, sino también una comunidad donde
+              puedan aprender, crecer y alcanzar su máximo potencial.
             </p>
           </div>
 
@@ -142,7 +145,7 @@ onar a nuestros miembros noimport ReproductorAudio from './../reproductoAudio/Re
           </div>
         </div>
       </div>
-      <ReproductorAudio/>
+      <ReproductorAudio />
       <Footer />
     </>
   );

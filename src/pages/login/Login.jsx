@@ -1,10 +1,10 @@
-import { Navbar } from "./../navbar/Navbar";
-import Carrousel from "./../carrousel/Carrousel";
-import { Footer } from "./../footer/Footer";
+import { Navbar } from "../../components/navbar/Navbar";
+import Carrousel from "../../components/carrousel/Carrousel";
+import { Footer } from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Swal from "sweetalert2";
-import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
+import ReproductorAudio from '../../components/reproductoAudio/ReproductorAudio';
 const validacionDatos = (email, password) => {
   if (email === "") return "Por favor, ingrese su email";
   if (password === "") return "Por favor, ingrese su password";
@@ -72,7 +72,7 @@ function Login() {
                       title="CARDIO 30 MINUTOS PARA ELIMINAR GRASA ABDOMINAL"
                       className="object-cover w-full h-auto  hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
+                      allowFullScreen
                     ></iframe>
                  
 

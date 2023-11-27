@@ -1,9 +1,9 @@
-import { Navbar } from "../navbar/Navbar";
-import Carrousel from "./../carrousel/Carrousel";
-import { Footer } from "../footer/Footer";
+import { Navbar } from "../../components/navbar/Navbar";
+import Carrousel from "../../components/carrousel/Carrousel";
+import { Footer } from "../../components/footer/Footer";
 import { useState } from "react";
 import Swal from 'sweetalert2';
-import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
+import ReproductorAudio from '../../components/reproductoAudio/ReproductorAudio';
 const validacionDatos = (nombre, email, mensaje) => {
   if (nombre === "") return "Por favor, ingrese su nombre";
   if (email === "") return "Por favor, ingrese su email";

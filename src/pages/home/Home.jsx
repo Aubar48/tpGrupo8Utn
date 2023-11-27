@@ -1,9 +1,9 @@
-import { Navbar } from "./../navbar/Navbar";
-import Carrousel from "./../carrousel/Carrousel";
-import Card from "./../card/Card";
+import { Navbar } from "../../components/navbar/Navbar";
+import Carrousel from "../../components/carrousel/Carrousel";
+import Card from "../../components/card/Card";
 import { Footer } from "/src/components/footer/Footer.jsx";
-import { CardPrice } from "../cardPrice/CardPrice";
-import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
+import { CardPrice } from "../../components/cardPrice/CardPrice";
+import ReproductorAudio from '../../components/reproductoAudio/ReproductorAudio';
 
 function Home() {
   return (

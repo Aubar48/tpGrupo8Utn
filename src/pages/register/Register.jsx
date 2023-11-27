@@ -1,10 +1,10 @@
-import { Navbar } from "./../navbar/Navbar";
-import Carrousel from "./../carrousel/Carrousel";
-import { Footer } from "./../footer/Footer";
+import { Navbar } from "../../components/navbar/Navbar";
+import Carrousel from "../../components/carrousel/Carrousel";
+import { Footer } from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Swal from "sweetalert2";
-import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
+import ReproductorAudio from '../../components/reproductoAudio/ReproductorAudio';
 const validacionDatos = (nombre, email, password, password2) => {
   if (nombre === "") return "Por favor, ingrese su nombre";
   if (email === "") return "Por favor, ingrese su email";
@@ -79,7 +79,7 @@ function Register() {
                   title="CORE CARDIO | FIT CAMP - SIN EXCUSAS"
                   className="object-cover w-full h-auto hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
                 <div className="w-full  lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
                   <h3 className="pt-4 text-2xl text-center">

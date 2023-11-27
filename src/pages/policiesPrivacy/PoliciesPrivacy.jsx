@@ -1,8 +1,8 @@
-import { Navbar } from "./../navbar/Navbar";
-import Carrousel from "./../carrousel/Carrousel";
-import { Footer } from "/src/components/footer/Footer.jsx";
-import AlCostado from "../aside/AlCostado.jsx";
-import ReproductorAudio from './../reproductoAudio/ReproductorAudio';
+import { Navbar } from "../../components/navbar/Navbar.jsx";
+import Carrousel from "../../components/carrousel/Carrousel.jsx";
+import { Footer } from "../../components/footer/Footer.jsx";
+import AlCostado from "../../components/aside/AlCostado.jsx";
+import ReproductorAudio from "../../components/reproductoAudio/ReproductorAudio.jsx";
 
 function PoliciesPrivacy() {
   return (
@@ -102,7 +102,7 @@ function PoliciesPrivacy() {
           </div>
         </div>
       </div>
-      <ReproductorAudio/>
+      <ReproductorAudio />
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
-import { Navbar } from "./../navbar/Navbar";
-import Carrousel from "./../carrousel/Carrousel";
-import { Footer } from "/src/components/footer/Footer.jsx";
+import  Carrousel  from "../../components/carrousel/Carrousel";
+import { Footer } from "../../components/footer/Footer";
+import { Navbar } from "./../../components/navbar/Navbar";
 function NotFound() {
   return (
     <>
