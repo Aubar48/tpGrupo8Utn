@@ -33,13 +33,13 @@ const Card = () => {
 
   return (
     <div
-      className="flex flex-wrap justify-center"
+      className="flex flex-wrap justify-center "
       
     >
       {cardData.map((data, index) => (
         <div
           key={index}
-          className="my-5 ml-2 max-lg:ml-0 max-w-sm rounded-lg overflow-hidden shadow-lg md:w-1/2 shadow-red-600"
+          className="my-5 ml-2 max-lg:ml-0 max-w-sm rounded-lg overflow-hidden  md:w-1/2 shadow-lg shadow-green-700 dark:shadow-purple-700"
           data-aos="fade-down"
           data-aos-anchor="#example-anchor"
           data-aos-offset="50"
@@ -57,7 +57,7 @@ const Card = () => {
               {data.description}
             </p>
           </div>
-          <div className="px-6 mt-4 flex flex-wrap justify-between">
+          <div className="px-6 mt-4 flex flex-wrap justify-between text-red-950">
             {data.tags.map((tag, tagIndex) => (
               <span key={tagIndex} className="tag me-2 mb-2">
                 {tag}

@@ -7,11 +7,16 @@ import { CardPrice } from "../cardPrice/CardPrice";
 function Home() {
   return (
     <>
-      <Navbar />
-      <Carrousel />
-      <Card />
-      <CardPrice/>
-      <Footer />
+      <div
+        className="font-roboto bg-gradient-to-bl from-white via-slate-50 to-green-600
+      dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-50 dark:to-purple-700 "
+      >
+        <Navbar />
+        <Carrousel />
+        <Card />
+        <CardPrice />
+        <Footer />
+      </div>
     </>
   );
 }

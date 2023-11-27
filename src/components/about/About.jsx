@@ -5,8 +5,11 @@ import { Footer } from "./../footer/Footer";
 export const About = () => {
   return (
     <>
-      <Navbar />
-      <body>
+      <div
+        className="font-roboto bg-gradient-to-bl from-white via-slate-50 to-green-600
+      dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-50 dark:to-purple-700"
+      >
+        <Navbar />
         <div className="about-baner">
           <div className="about-baner-text">
             <h1>Sobre Nosotros</h1>
@@ -36,7 +39,11 @@ export const About = () => {
             data-aos-offset="50"
             data-aos-duration="1000"
           >
-            <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/gym-about.jpg" alt="Gym Entrena Salud" />
+            <img
+              className="hover:scale-105 transform-gpu duration-700"
+              src="/img/about/gym-about.jpg"
+              alt="Gym Entrena Salud"
+            />
           </div>
 
           <div className="about-text">
@@ -67,7 +74,11 @@ export const About = () => {
           >
             <div className="card">
               <div className="profileImage">
-                <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/perso.jpg" alt="" />
+                <img
+                  className="hover:scale-105 transform-gpu duration-700"
+                  src="/img/about/perso.jpg"
+                  alt=""
+                />
               </div>
               <div className="textContainer">
                 <p className="name">Gustafa Chero</p>
@@ -77,7 +88,11 @@ export const About = () => {
 
             <div className="card">
               <div className="profileImage">
-                <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/lonja.jpg" alt="" />
+                <img
+                  className="hover:scale-105 transform-gpu duration-700"
+                  src="/img/about/lonja.jpg"
+                  alt=""
+                />
               </div>
               <div className="textContainer">
                 <p className="name">Micaela Lonja</p>
@@ -87,7 +102,11 @@ export const About = () => {
 
             <div className="card">
               <div className="profileImage">
-                <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/anteojo.jpg" alt="" />
+                <img
+                  className="hover:scale-105 transform-gpu duration-700"
+                  src="/img/about/anteojo.jpg"
+                  alt=""
+                />
               </div>
               <div className="textContainer">
                 <p className="name">Manteo Jito</p>
@@ -97,7 +116,11 @@ export const About = () => {
 
             <div className="card">
               <div className="profileImage">
-                <img className="hover:scale-105 transform-gpu duration-700" src="/img/about/nocoma.jpg" alt="" />
+                <img
+                  className="hover:scale-105 transform-gpu duration-700"
+                  src="/img/about/nocoma.jpg"
+                  alt=""
+                />
               </div>
               <div className="textContainer">
                 <p className="name">Nocoma Tanto</p>
@@ -109,12 +132,13 @@ export const About = () => {
           <div className="about-text-1">
             <h2>Sumate</h2>
             <p>
-              Estamos entusiasmados en recibirte en nuestro equipo, desde nuestro SEO hasta el mas nuevo de nuestros fitn formamos parte de esta 
-              gran familia de Gym Entrena Salud. Te estamos esperando¡ 
+              Estamos entusiasmados en recibirte en nuestro equipo, desde
+              nuestro SEO hasta el mas nuevo de nuestros fitn formamos parte de
+              esta gran familia de Gym Entrena Salud. Te estamos esperando¡
             </p>
           </div>
         </div>
-      </body>
+      </div>
 
       <Footer />
     </>

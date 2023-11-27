@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const Carousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(1);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     // Función para avanzar automáticamente
@@ -11,29 +11,30 @@ const Carousel = () => {
     };
 
     // Configuración del temporizador para avanzar automáticamente cada cierto tiempo (por ejemplo, cada 5 segundos)
-    const intervalId = setInterval(autoAdvance, 4000);
+    const intervalId = setInterval(autoAdvance, 2000);
 
     // Limpieza del temporizador al desmontar el componente
     return () => clearInterval(intervalId);
   }, [currentIndex]);
 
   const goToPrevSlide = () => {
-    const prevIndex = currentIndex === 1 ? 4 : currentIndex - 1;
+    const prevIndex = currentIndex === 0 ? 4 : currentIndex - 1;
     setCurrentIndex(prevIndex);
   };
 
   const goToNextSlide = () => {
-    const nextIndex = currentIndex === 4 ? 1 : currentIndex + 1;
+    const nextIndex = currentIndex === 4 ? 0 : currentIndex + 1;
     setCurrentIndex(nextIndex);
   };
 
   return (
     <div
       id="controls-carousel"
-      className="relative w-full p-2"
+      className="relative"
       data-carousel="static"
+      
     >
-      <div className="relative h-56 md:h-96 overflow-hidden rounded-lg">
+      <div className="relative mt-1 max-sm:h-28 max-lg:h-60 h-[600px] w-full overflow-hidden rounded-lg shadow-lg shadow-green-700 dark:shadow-purple-700">
         {[0, 1, 2, 3, 4].map((index) => (
           <div
             key={index}
@@ -44,7 +45,7 @@ const Carousel = () => {
           >
             <img
               src={`/img/carrousel/gym${index}.jpg`}
-              className="absolute max-h-[500px] max-w-[2000px] object-cover block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="rounded-lg shadow-lg shadow-green-700 dark:shadow-purple-700 max-sm:h-28 max-lg:h-60  absolute object-fill block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt={`Gym ${index}`}
             />
           </div>
