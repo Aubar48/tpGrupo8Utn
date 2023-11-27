@@ -1,9 +1,16 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
 export const Navbar = () => {
   const [currentTime, setCurrentTime] = useState(getFormattedTime());
+  const [theme, setTheme] = useState(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    }
+    return "light";
+  });
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // Función para obtener la hora actual en formato HH:MM:SS
   function getFormattedTime() {
     const now = new Date();
     const hours = now.getHours().toString().padStart(2, "0");
@@ -13,26 +20,12 @@ export const Navbar = () => {
   }
 
   useEffect(() => {
-    // Función para actualizar la hora cada segundo
     const updateCurrentTime = () => {
       setCurrentTime(getFormattedTime());
     };
-
-    // Configuración del temporizador para actualizar la hora cada segundo
     const intervalId = setInterval(updateCurrentTime, 1000);
-
-    // Limpieza del temporizador al desmontar el componente
     return () => clearInterval(intervalId);
   }, []);
-
-  // dark mode mas logica de localStorage
-  const [theme, setTheme] = useState(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      return "dark";
-    }
-
-    return "light";
-  });
 
   const handleChangeTheme = () => {
     setTheme((prevTheme) => {
@@ -47,7 +40,6 @@ export const Navbar = () => {
     if (storedTheme) {
       setTheme(storedTheme);
     } else {
-      // Lógica para detectar el tema del sistema si no hay un tema almacenado
       if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
         setTheme("dark");
       } else {
@@ -63,13 +55,14 @@ export const Navbar = () => {
       document.querySelector("html").classList.remove("dark");
     }
   }, [theme]);
+
+  const toggleMenu = () => {
+    setIsMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
+  };
+
   return (
     <>
-      <nav
-        className=" flex items-center justify-between flex-wrap p-5 
-        bg-gradient-to-bl from-white via-slate-50 to-green-700
-      dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-50 dark:to-purple-700"
-      >
+      <nav className="flex items-center justify-between flex-wrap p-5 bg-gradient-to-bl from-white via-slate-50 to-green-700 dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-50 dark:to-purple-700">
         <div className="flex items-center flex-shrink-0 text-red-950 mr-6">
           <svg
             className="fill-current h-8 w-8 mr-2"
@@ -80,12 +73,15 @@ export const Navbar = () => {
           >
             <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
           </svg>
-          <Link to="/home" className="font-semibold text-xl tracking-tight ">
+          <Link to="/home" className="font-semibold text-xl tracking-tight">
             Gym Entrena Salud
           </Link>
         </div>
         <div className="block lg:hidden">
-          <button className="flex items-center px-3 py-2 border rounded text-red-950 border-white ">
+          <button
+            onClick={toggleMenu}
+            className="flex items-center px-3 py-2 border rounded text-red-950 border-white"
+          >
             <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
@@ -96,24 +92,15 @@ export const Navbar = () => {
             </svg>
           </button>
         </div>
-        <div className="w-full block flex-grow ml-4 lg:flex lg:items-center lg:w-auto">
+        <div className={`w-full block flex-grow ml-4 lg:flex lg:items-center lg:w-auto ${isMenuOpen ? '' : 'hidden'}`}>
           <div className="text-sm lg:flex-grow font-bold">
-            <Link
-              to="/login"
-              className="focus:underline hover:underline block mt-4  lg:inline-block lg:mt-0 text-red-950   mr-4"
-            >
+            <Link to="/login" className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950   mr-4">
               Login
             </Link>
-            <Link
-              to="/register"
-              className="focus:underline hover:underline block mt-4  lg:inline-block lg:mt-0 text-red-950 d  mr-4"
-            >
+            <Link to="/register" className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950 d  mr-4">
               Register
             </Link>
-            <Link
-              to="/contacto"
-              className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950  "
-            >
+            <Link to="/contacto" className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950  ">
               Contact
             </Link>
           </div>
