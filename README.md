@@ -16,6 +16,7 @@
 <figure><img src="./mock/gym5.png" alt="logo" style="height: 400px;"></figure>
 <figure><img src="./mock/gym6.png" alt="logo" style="height: 400px;"></figure>
 <figure><img src="./mock/gym7.png" alt="logo" style="height: 400px;"></figure>
+<figure><img src="./mock/gym8.png" alt="logo" style="height: 400px;"></figure>
 ## Instructions
 
 To run the project, follow these steps:
