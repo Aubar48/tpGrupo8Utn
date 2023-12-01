@@ -34,7 +34,7 @@ const Carousel = () => {
       data-carousel="static"
       
     >
-      <div className="relative mt-1 max-sm:h-28 max-lg:h-60 h-[600px] w-full overflow-hidden rounded-lg shadow-lg shadow-green-700 dark:shadow-purple-700">
+      <div className="relative pt-1 max-sm:h-28 max-lg:h-60 h-[600px] w-full overflow-hidden rounded-lg shadow-lg shadow-green-700 dark:shadow-purple-700">
         {[0, 1, 2, 3, 4].map((index) => (
           <div
             key={index}

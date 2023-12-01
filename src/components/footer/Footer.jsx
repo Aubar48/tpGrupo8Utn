@@ -44,10 +44,10 @@ export const Footer = () => {
             </li>
             <li>
               <Link
-                to="#"
+                to="/lista"
                 className="focus:underline hover:underline me-4 md:me-6"
               >
-                Licensing
+                Lista Gym
               </Link>
             </li>
           </ul>

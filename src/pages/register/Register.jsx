@@ -92,7 +92,7 @@ function Register() {
                     <div className="mb-4">
                       <label
                         className="block mb-2 text-sm font-bold text-gray-700"
-                        htmlFor="username"
+                        htmlFor="nombre"
                       >
                         Username
                       </label>

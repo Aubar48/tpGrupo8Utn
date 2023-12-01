@@ -92,15 +92,28 @@ export const Navbar = () => {
             </svg>
           </button>
         </div>
-        <div className={`w-full block flex-grow ml-4 lg:flex lg:items-center lg:w-auto ${isMenuOpen ? '' : 'hidden'}`}>
+        <div
+          className={`w-full block flex-grow ml-4 lg:flex lg:items-center lg:w-auto ${
+            isMenuOpen ? "" : "hidden"
+          }`}
+        >
           <div className="text-sm lg:flex-grow font-bold">
-            <Link to="/login" className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950   mr-4">
+            <Link
+              to="/login"
+              className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950   mr-4"
+            >
               Login
             </Link>
-            <Link to="/register" className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950 d  mr-4">
+            <Link
+              to="/register"
+              className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950 d  mr-4"
+            >
               Register
             </Link>
-            <Link to="/contacto" className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950  ">
+            <Link
+              to="/contacto"
+              className="focus:underline hover:underline block mt-4 lg:inline-block lg:mt-0 text-red-950  "
+            >
               Contact
             </Link>
           </div>
@@ -109,6 +122,8 @@ export const Navbar = () => {
               onClick={handleChangeTheme}
               type="checkbox"
               className="peer/input hidden "
+              id="darkMode"
+              name="DarkMode"
             />
             <div className="absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6"></div>
           </label>

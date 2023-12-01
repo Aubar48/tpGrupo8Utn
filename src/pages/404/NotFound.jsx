@@ -1,10 +1,10 @@
-import  Carrousel  from "../../components/carrousel/Carrousel";
+import Carrousel from "../../components/carrousel/Carrousel";
 import { Footer } from "../../components/footer/Footer";
 import { Navbar } from "./../../components/navbar/Navbar";
 function NotFound() {
   return (
     <>
-      <body
+      <div
         className="font-roboto bg-gradient-to-bl from-white via-slate-50 to-green-600
     dark:bg-gradient-to-br dark:from-slate-950 dark:via-slate-50 dark:to-purple-700"
       >
@@ -42,7 +42,7 @@ function NotFound() {
             </a>
           </div>
         </div>
-      </body>
+      </div>
       <Footer />
     </>
   );

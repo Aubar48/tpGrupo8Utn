@@ -6,6 +6,7 @@ import Contacto from "./pages/contacto/Contacto";
 import { About } from "./pages/about/About";
 import PoliciesPrivacy from "./pages/policiesPrivacy/PoliciesPrivacy";
 import NotFound from "./pages/404/NotFound";
+import Lista from "./pages/lista/Lista";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/about" element={<About />} />
           <Route path="/policiesPrivacy" element={<PoliciesPrivacy />} />
+          <Route path="/lista" element={<Lista />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
