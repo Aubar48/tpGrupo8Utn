@@ -42,7 +42,7 @@ const Card = () => {
           className="my-5 ml-2 max-lg:ml-0 max-w-sm rounded-lg overflow-hidden  md:w-1/2 shadow-lg shadow-green-700 dark:shadow-purple-700"
           data-aos="fade-down"
           data-aos-anchor="#example-anchor"
-          data-aos-offset="50"
+          data-aos-offset="500"
           data-aos-duration="1000"
           
         >

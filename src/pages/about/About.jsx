@@ -52,11 +52,7 @@ export const About = () => {
             <h2>Nuestra Misión</h2>
             <p>
               En Gym Entrena Salud, creemos en la importancia de la salud
-              integral. Nuestra misión es proporciimport ReproductorAudio from
-              './../reproductoAudio/ReproductorAudio'; onar a nuestros miembros
-              noimport ReproductorAudio from
-              './../reproductoAudio/ReproductorAudio'; import ReproductorAudio
-              from './../../components/reproductoAudio/ReproductorAudio'; solo
+              integral. Nuestra misión es proporcionar a nuestros miembros solo
               un lugar para hacer ejercicio, sino también una comunidad donde
               puedan aprender, crecer y alcanzar su máximo potencial.
             </p>

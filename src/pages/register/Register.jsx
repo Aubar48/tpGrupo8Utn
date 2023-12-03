@@ -4,7 +4,7 @@ import { Footer } from "../../components/footer/Footer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Swal from "sweetalert2";
-import ReproductorAudio from '../../components/reproductoAudio/ReproductorAudio';
+import ReproductorAudio from "../../components/reproductoAudio/ReproductorAudio";
 const validacionDatos = (nombre, email, password, password2) => {
   if (nombre === "") return "Por favor, ingrese su nombre";
   if (email === "") return "Por favor, ingrese su email";
@@ -101,7 +101,6 @@ function Register() {
                         id="nombre"
                         type="text"
                         placeholder="Username"
-                        name="nombre"
                         onChange={(evento) => setNombre(evento.target.value)}
                         value={Nombre}
                         autoComplete="off"
@@ -110,7 +109,7 @@ function Register() {
                     <div className="mb-4">
                       <label
                         className="block mb-2 text-sm font-bold text-gray-700"
-                        htmlFor="username"
+                        htmlFor="email"
                       >
                         Email
                       </label>
@@ -122,7 +121,6 @@ function Register() {
                         onChange={(evento) => setEmail(evento.target.value)}
                         value={Email}
                         autoComplete="off"
-                        name="email"
                       />
                     </div>
                     <div className="mb-4">
@@ -140,7 +138,6 @@ function Register() {
                         onChange={(evento) => setPassword(evento.target.value)}
                         value={Password}
                         autoComplete="off"
-                        name="password"
                       />
                       <p className="text-xs italic text-red-500">
                         Please choose a password.
@@ -149,7 +146,7 @@ function Register() {
                     <div className="mb-4">
                       <label
                         className="block mb-2 text-sm font-bold text-gray-700"
-                        htmlFor="password"
+                        htmlFor="password2"
                       >
                         Repeat Password
                       </label>
@@ -161,7 +158,6 @@ function Register() {
                         onChange={(evento) => setPassword2(evento.target.value)}
                         value={Password2}
                         autoComplete="off"
-                        name="password2"
                       />
                       <p className="text-xs italic text-red-500">
                         Please choose a password.
@@ -211,7 +207,7 @@ function Register() {
           </div>
         </div>
       </div>
-      <ReproductorAudio/>
+      <ReproductorAudio />
       <Footer />
     </>
   );

@@ -4,8 +4,8 @@ export const CardPrice = () => {
       className="my-5 flex flex-wrap items-center justify-center "
       data-aos="fade-down"
       data-aos-anchor="#example-anchor"
-      data-aos-offset="50"
-      data-aos-duration="1000"
+      data-aos-offset="500"
+      data-aos-duration="3000"
     >
       <div className="flex flex-col sm:flex-col lg:flex-row xl:flex-row md:flex-row justify-center items center container">
         <div className="hover:scale-105 transform-gpu duration-700 py-12 sm:py-12 md:py-6 lg:py-6 xl:py-6 px-8 w-full md:max-w-min sm:w-full bg-white z-30 rounded-lg shadow-lg shadow-green-700 dark:shadow-purple-700">

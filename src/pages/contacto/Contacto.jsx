@@ -83,7 +83,7 @@ export default function Contact() {
                     <div className="mb-4">
                       <label
                         className="block mb-2 text-sm font-bold text-gray-700"
-                        htmlFor="username"
+                        htmlFor="nombre"
                       >
                         Nombre
                       </label>
@@ -92,7 +92,7 @@ export default function Contact() {
                         id="nombre"
                         type="text"
                         placeholder="Ingrese aqui su nombre"
-                        name="nombre"
+                        
                         onChange={(evento) => setNombre(evento.target.value)}
                         value={Nombre}
                         autoComplete="off"
@@ -101,7 +101,7 @@ export default function Contact() {
                     <div className="mb-4">
                       <label
                         className="block mb-2 text-sm font-bold text-gray-700"
-                        htmlFor="username"
+                        htmlFor="email"
                       >
                         Email
                       </label>
@@ -113,13 +113,13 @@ export default function Contact() {
                         onChange={(evento) => setEmail(evento.target.value)}
                         value={Email}
                         autoComplete="off"
-                        name="email"
+                        
                       />
                     </div>
                     <div className="mb-4">
                       <label
                         className="block mb-2 text-sm font-bold text-gray-700"
-                        htmlFor="password"
+                        htmlFor="mensaje"
                       >
                         Mensaje
                       </label>
@@ -128,7 +128,7 @@ export default function Contact() {
                         id="mensaje"
                         placeholder="Ingrese su mensaje aquí"
                         style={{ height: "120px" }} // Establecer una altura fija, por ejemplo, 120px
-                        name="mensaje"
+                      
                         onChange={(evento) => setMensaje(evento.target.value)}
                         value={Mensaje}
                         autoComplete="off"

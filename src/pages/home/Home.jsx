@@ -4,6 +4,7 @@ import Card from "../../components/card/Card";
 import { Footer } from "/src/components/footer/Footer.jsx";
 import { CardPrice } from "../../components/cardPrice/CardPrice";
 import ReproductorAudio from '../../components/reproductoAudio/ReproductorAudio';
+import { CardSimple } from "../../components/cardSimple/CardSimple";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <Navbar />
         <Carrousel />
         <Card />
+        <CardSimple/>
         <CardPrice />
         <ReproductorAudio/>
         <Footer />

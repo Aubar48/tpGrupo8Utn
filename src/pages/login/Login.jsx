@@ -97,7 +97,7 @@ function Login() {
                           onChange={(evento) => setEmail(evento.target.value)}
                           value={Email}
                           autoComplete="off"
-                          name="email"
+                          
                         />
                       </div>
                       <div className="mb-4">
@@ -117,7 +117,7 @@ function Login() {
                           }
                           value={Password}
                           autoComplete="off"
-                          name="password"
+                          
                         />
                         <p className="text-xs italic text-red-500">
                           Please choose a password.
